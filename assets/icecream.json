@@ -1,0 +1,245 @@
+{
+    "icecreams": [
+      {
+        "id": 1,
+        "category": "Classic",
+        "isFeatured": true,
+        "flavour": "Vanilla",
+        "description": "A rich and creamy classic vanilla ice cream.",
+        "toppings": ["Sprinkles", "Cherries", "Chocolate Syrup"],
+        "price": 59,
+        "image": "https://example.com/vanilla.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Sugar", "quantity": "50 g" },
+          { "name": "Vanilla Extract", "quantity": "5 ml" }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Chocolate",
+        "isFeatured": true,
+        "flavour": "Chocolate",
+        "description": "Rich and indulgent chocolate ice cream made from real cocoa.",
+        "toppings": ["Whipped Cream", "Chocolate Chips"],
+        "price": 65,
+        "image": "https://example.com/chocolate.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Cocoa Powder", "quantity": "30 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Fruit",
+        "isFeatured": true,
+        "flavour": "Strawberry",
+        "description": "A refreshing and fruity strawberry ice cream made with fresh strawberries.",
+        "toppings": ["Fresh Strawberries", "Whipped Cream"],
+        "price": 71,
+        "image": "https://example.com/strawberry.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Strawberries", "quantity": "100 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Classic",
+        "isFeatured": true,
+        "flavour": "Mint Chocolate Chip",
+        "description": "Cool and refreshing mint ice cream with chocolate chips.",
+        "toppings": ["Mint Leaves", "Chocolate Chips"],
+        "price": 69,
+        "image": "https://example.com/mintchoc.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Mint Extract", "quantity": "5 ml" },
+          { "name": "Chocolate Chips", "quantity": "30 g" }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "Exotic",
+        "isFeatured": false,
+        "flavour": "Mango",
+        "description": "Delicious mango ice cream with a tropical twist.",
+        "toppings": ["Mango Slices", "Coconut Shavings"],
+        "price": 77,
+        "image": "https://example.com/mango.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Mango Puree", "quantity": "100 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 6,
+        "category": "Chocolate",
+        "isFeatured": true,
+        "flavour": "Dark Chocolate",
+        "description": "Decadent dark chocolate ice cream for true chocolate lovers.",
+        "toppings": ["Cacao Nibs", "Chocolate Sauce"],
+        "price": 83,
+        "image": "https://example.com/darkchocolate.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Dark Chocolate", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "40 g" }
+        ]
+      },
+      {
+        "id": 7,
+        "category": "Fruit",
+        "isFeatured": true,
+        "flavour": "Blueberry",
+        "description": "Creamy blueberry ice cream packed with fresh blueberries.",
+        "toppings": ["Blueberry Sauce", "Whipped Cream"],
+        "price": 76,
+        "image": "https://example.com/blueberry.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Blueberries", "quantity": "100 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 8,
+        "category": "Nutty",
+        "isFeatured": true,
+        "flavour": "Pistachio",
+        "description": "Rich and creamy pistachio ice cream made from real pistachios.",
+        "toppings": ["Chopped Pistachios", "Whipped Cream"],
+        "price": 86,
+        "image": "https://example.com/pistachio.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Pistachios", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 9,
+        "category": "Fruit",
+        "isFeatured": true,
+        "flavour": "Raspberry",
+        "description": "A tart and sweet raspberry ice cream.",
+        "toppings": ["Fresh Raspberries", "Chopped Nuts"],
+        "price": 70,
+        "image": "https://example.com/raspberry.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Raspberries", "quantity": "100 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 10,
+        "category": "Exotic",
+        "isFeatured": false,
+        "flavour": "Coconut",
+        "description": "Tropical coconut ice cream with a rich and smooth texture.",
+        "toppings": ["Shredded Coconut", "Chocolate Chips"],
+        "price": 78,
+        "image": "https://example.com/coconut.png",
+        "ingredients": [
+          { "name": "Coconut Milk", "quantity": "200 ml" },
+          { "name": "Coconut Shavings", "quantity": "30 g" },
+          { "name": "Sugar", "quantity": "40 g" }
+        ]
+      },
+      {
+        "id": 11,
+        "category": "Classic",
+        "isFeatured": true,
+        "flavour": "Butter Pecan",
+        "description": "Buttery, rich ice cream with toasted pecans.",
+        "toppings": ["Pecan Pieces", "Caramel Drizzle"],
+        "price": 83,
+        "image": "https://example.com/butterpecan.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Pecans", "quantity": "50 g" },
+          { "name": "Butter", "quantity": "20 g" }
+        ]
+      },
+      {
+        "id": 12,
+        "category": "Chocolate",
+        "isFeatured": true,
+        "flavour": "Rocky Road",
+        "description": "Chocolate ice cream loaded with marshmallows and almonds.",
+        "toppings": ["Marshmallows", "Almonds", "Chocolate Syrup"],
+        "price": 89,
+        "image": "https://example.com/rockyroad.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Marshmallows", "quantity": "30 g" },
+          { "name": "Almonds", "quantity": "20 g" }
+        ]
+      },
+      {
+        "id": 13,
+        "category": "Exotic",
+        "isFeatured": false,
+        "flavour": "Passion Fruit",
+        "description": "A tangy passion fruit ice cream with a tropical flavor.",
+        "toppings": ["Passion Fruit Syrup", "Shaved Coconut"],
+        "price": 82,
+        "image": "https://example.com/passionfruit.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Passion Fruit Puree", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 14,
+        "category": "Classic",
+        "isFeatured": true,
+        "flavour": "Cookies and Cream",
+        "description": "A creamy vanilla ice cream filled with chunks of chocolate cookies.",
+        "toppings": ["Cookie Crumbs", "Whipped Cream"],
+        "price": 71,
+        "image": "https://example.com/cookiescream.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Cookies", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 15,
+        "category": "Classic",
+        "isFeatured": true,
+        "flavour": "Butterscotch",
+        "description": "Smooth and creamy butterscotch ice cream with a buttery flavor.",
+        "toppings": ["Caramel Sauce", "Crushed Nuts"],
+        "price": 83,
+        "image": "https://example.com/butterscotch.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Butterscotch Chips", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 16,
+        "category": "Chocolate",
+        "isFeatured": false,
+        "flavour": "Belgian Chocolate",
+        "description": "Rich and creamy Belgian chocolate ice cream with a luxurious flavor.",
+        "toppings": ["Dark Chocolate Shavings", "Chocolate Sauce"],
+        "price": 83,
+        "image": "https://example.com/belgianchocolate.png",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Belgian Chocolate", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "40 g" }
+        ]
+      }
+    ]
+  }
+  
