@@ -1,18 +1,33 @@
 {
     "icecreams": [
       {
-        "id": 1,
+        "id": 0,
         "category": "Classic",
         "isFeatured": true,
-        "flavour": "Vanilla",
-        "description": "A rich and creamy classic vanilla ice cream.",
-        "toppings": ["Sprinkles", "Cherries", "Chocolate Syrup"],
-        "price": 59,
-        "image": "https://example.com/vanilla.png",
+        "flavour": "Cookies and Cream",
+        "description": "A creamy vanilla ice cream filled with chunks of chocolate cookies.",
+        "toppings": ["Cookie Crumbs", "Whipped Cream"],
+        "price": 146.75,
+        "image": "https://images.unsplash.com/photo-1642646682918-442f76c1ec74?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Q29va2llcyUyMGFuZCUyMENyZWFtJTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8fDA%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
-          { "name": "Sugar", "quantity": "50 g" },
-          { "name": "Vanilla Extract", "quantity": "5 ml" }
+          { "name": "Cookies", "quantity": "50 g" },
+          { "name": "Sugar", "quantity": "50 g" }
+        ]
+      },
+      {
+        "id": 1,
+        "category": "Fruit",
+        "isFeatured": true,
+        "flavour": "Raspberry",
+        "description": "A tart and sweet raspberry ice cream.",
+        "toppings": ["Fresh Raspberries", "Chopped Nuts"],
+        "price": 180.15,
+        "image": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UmFzcGJlcnJ5JTIwaWNlY3JlYW18ZW58MHx8MHx8fDA%3D",
+        "ingredients": [
+          { "name": "Milk", "quantity": "200 ml" },
+          { "name": "Raspberries", "quantity": "100 g" },
+          { "name": "Sugar", "quantity": "50 g" }
         ]
       },
       {
@@ -22,8 +37,8 @@
         "flavour": "Chocolate",
         "description": "Rich and indulgent chocolate ice cream made from real cocoa.",
         "toppings": ["Whipped Cream", "Chocolate Chips"],
-        "price": 65,
-        "image": "https://example.com/chocolate.png",
+        "price": 185.57,
+        "image": "https://plus.unsplash.com/premium_photo-1674819647262-7b111521e2d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q2hvY29sYXRlJTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8fDA%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Cocoa Powder", "quantity": "30 g" },
@@ -37,8 +52,8 @@
         "flavour": "Strawberry",
         "description": "A refreshing and fruity strawberry ice cream made with fresh strawberries.",
         "toppings": ["Fresh Strawberries", "Whipped Cream"],
-        "price": 71,
-        "image": "https://example.com/strawberry.png",
+        "price": 171.22,
+        "image": "https://images.unsplash.com/photo-1532678465554-94846274c297?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3RyYXdiZXJyeSUyMGljZSUyMGNyZWFtfGVufDB8fDB8fHww",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Strawberries", "quantity": "100 g" },
@@ -52,8 +67,8 @@
         "flavour": "Mint Chocolate Chip",
         "description": "Cool and refreshing mint ice cream with chocolate chips.",
         "toppings": ["Mint Leaves", "Chocolate Chips"],
-        "price": 69,
-        "image": "https://example.com/mintchoc.png",
+        "price": 269.99,
+        "image": "https://images.unsplash.com/photo-1534706936160-d5ee67737249?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWludCUyMGljZSUyMGNyZWFtfGVufDB8fDB8fHww",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Mint Extract", "quantity": "5 ml" },
@@ -67,8 +82,8 @@
         "flavour": "Mango",
         "description": "Delicious mango ice cream with a tropical twist.",
         "toppings": ["Mango Slices", "Coconut Shavings"],
-        "price": 77,
-        "image": "https://example.com/mango.png",
+        "price": 177.62,
+        "image": "https://images.unsplash.com/photo-1591677445540-08028eeb3021?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFuZ28lMjBpY2UlMjBjcmVhbXxlbnwwfHwwfHx8MA%3D%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Mango Puree", "quantity": "100 g" },
@@ -78,12 +93,12 @@
       {
         "id": 6,
         "category": "Chocolate",
-        "isFeatured": true,
+        "isFeatured": false,
         "flavour": "Dark Chocolate",
         "description": "Decadent dark chocolate ice cream for true chocolate lovers.",
         "toppings": ["Cacao Nibs", "Chocolate Sauce"],
-        "price": 83,
-        "image": "https://example.com/darkchocolate.png",
+        "price": 243.25,
+        "image": "https://images.unsplash.com/photo-1569429378981-f4c5ba689a9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fENob2NvbGF0ZSUyMGljZSUyMGNyZWFtfGVufDB8fDB8fHww",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Dark Chocolate", "quantity": "50 g" },
@@ -97,8 +112,8 @@
         "flavour": "Blueberry",
         "description": "Creamy blueberry ice cream packed with fresh blueberries.",
         "toppings": ["Blueberry Sauce", "Whipped Cream"],
-        "price": 76,
-        "image": "https://example.com/blueberry.png",
+        "price": 326.18,
+        "image": "https://plus.unsplash.com/premium_photo-1713895023518-37596f5e8c5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Qmx1ZWJlcnJ5JTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8fDA%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Blueberries", "quantity": "100 g" },
@@ -112,8 +127,8 @@
         "flavour": "Pistachio",
         "description": "Rich and creamy pistachio ice cream made from real pistachios.",
         "toppings": ["Chopped Pistachios", "Whipped Cream"],
-        "price": 86,
-        "image": "https://example.com/pistachio.png",
+        "price": 346.25,
+        "image": "https://images.unsplash.com/photo-1543255006-d6395b6f1171?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGlzdGFjaGlvJTIwaWNlJTIwY3JlYW18ZW58MHx8MHx8fDA%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Pistachios", "quantity": "50 g" },
@@ -122,17 +137,17 @@
       },
       {
         "id": 9,
-        "category": "Fruit",
+        "category": "Classic",
         "isFeatured": true,
-        "flavour": "Raspberry",
-        "description": "A tart and sweet raspberry ice cream.",
-        "toppings": ["Fresh Raspberries", "Chopped Nuts"],
-        "price": 70,
-        "image": "https://example.com/raspberry.png",
+        "flavour": "Vanilla",
+        "description": "A rich and creamy classic vanilla ice cream.",
+        "toppings": ["Sprinkles", "Cherries", "Chocolate Syrup"],
+        "price": 139.99,
+        "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VmFuaWxsYSUyMGljZWNyZWFtfGVufDB8fDB8fHww",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
-          { "name": "Raspberries", "quantity": "100 g" },
-          { "name": "Sugar", "quantity": "50 g" }
+          { "name": "Sugar", "quantity": "50 g" },
+          { "name": "Vanilla Extract", "quantity": "5 ml" }
         ]
       },
       {
@@ -142,8 +157,8 @@
         "flavour": "Coconut",
         "description": "Tropical coconut ice cream with a rich and smooth texture.",
         "toppings": ["Shredded Coconut", "Chocolate Chips"],
-        "price": 78,
-        "image": "https://example.com/coconut.png",
+        "price": 148.25,
+        "image": "https://images.unsplash.com/photo-1534095256953-6249f0cd07f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29jb251dCUyMGljZWNyZWFtfGVufDB8fDB8fHww",
         "ingredients": [
           { "name": "Coconut Milk", "quantity": "200 ml" },
           { "name": "Coconut Shavings", "quantity": "30 g" },
@@ -157,8 +172,8 @@
         "flavour": "Butter Pecan",
         "description": "Buttery, rich ice cream with toasted pecans.",
         "toppings": ["Pecan Pieces", "Caramel Drizzle"],
-        "price": 83,
-        "image": "https://example.com/butterpecan.png",
+        "price": 384.99,
+        "image": "https://plus.unsplash.com/premium_photo-1675279010961-8a6679ff03da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aWNlJTIwY3JlYW0lMjBjb25lfGVufDB8fDB8fHww",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Pecans", "quantity": "50 g" },
@@ -167,28 +182,13 @@
       },
       {
         "id": 12,
-        "category": "Chocolate",
-        "isFeatured": true,
-        "flavour": "Rocky Road",
-        "description": "Chocolate ice cream loaded with marshmallows and almonds.",
-        "toppings": ["Marshmallows", "Almonds", "Chocolate Syrup"],
-        "price": 89,
-        "image": "https://example.com/rockyroad.png",
-        "ingredients": [
-          { "name": "Milk", "quantity": "200 ml" },
-          { "name": "Marshmallows", "quantity": "30 g" },
-          { "name": "Almonds", "quantity": "20 g" }
-        ]
-      },
-      {
-        "id": 13,
         "category": "Exotic",
         "isFeatured": false,
         "flavour": "Passion Fruit",
         "description": "A tangy passion fruit ice cream with a tropical flavor.",
         "toppings": ["Passion Fruit Syrup", "Shaved Coconut"],
-        "price": 82,
-        "image": "https://example.com/passionfruit.png",
+        "price": 262.25,
+        "image": "https://images.unsplash.com/photo-1468769398733-d97298de3a06?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Passion Fruit Puree", "quantity": "50 g" },
@@ -196,29 +196,14 @@
         ]
       },
       {
-        "id": 14,
-        "category": "Classic",
-        "isFeatured": true,
-        "flavour": "Cookies and Cream",
-        "description": "A creamy vanilla ice cream filled with chunks of chocolate cookies.",
-        "toppings": ["Cookie Crumbs", "Whipped Cream"],
-        "price": 71,
-        "image": "https://example.com/cookiescream.png",
-        "ingredients": [
-          { "name": "Milk", "quantity": "200 ml" },
-          { "name": "Cookies", "quantity": "50 g" },
-          { "name": "Sugar", "quantity": "50 g" }
-        ]
-      },
-      {
-        "id": 15,
+        "id": 13,
         "category": "Classic",
         "isFeatured": true,
         "flavour": "Butterscotch",
         "description": "Smooth and creamy butterscotch ice cream with a buttery flavor.",
         "toppings": ["Caramel Sauce", "Crushed Nuts"],
-        "price": 83,
-        "image": "https://example.com/butterscotch.png",
+        "price": 153.99,
+        "image": "https://plus.unsplash.com/premium_photo-1675279010969-e85bfbd402dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
           { "name": "Butterscotch Chips", "quantity": "50 g" },
@@ -226,20 +211,20 @@
         ]
       },
       {
-        "id": 16,
-        "category": "Chocolate",
-        "isFeatured": false,
-        "flavour": "Belgian Chocolate",
-        "description": "Rich and creamy Belgian chocolate ice cream with a luxurious flavor.",
-        "toppings": ["Dark Chocolate Shavings", "Chocolate Sauce"],
-        "price": 83,
-        "image": "https://example.com/belgianchocolate.png",
+        "id": 14,
+        "category": "Caramel",
+        "isFeatured": true,
+        "flavour": "Caramel Swirl",
+        "description": "Creamy vanilla ice cream with rich caramel swirls.",
+        "toppings": ["Caramel Syrup", "Sea Salt", "Whipped Cream"],
+        "price": 179.99,
+        "image": "https://plus.unsplash.com/premium_photo-1707494324528-38cc510756e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D",
         "ingredients": [
           { "name": "Milk", "quantity": "200 ml" },
-          { "name": "Belgian Chocolate", "quantity": "50 g" },
-          { "name": "Sugar", "quantity": "40 g" }
+          { "name": "Caramel Syrup", "quantity": "50 ml" },
+          { "name": "Sea Salt", "quantity": "5 g" }
         ]
-      }
+      }      
     ]
   }
   
